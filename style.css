@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(globe.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+h1 {
+    color: blue;
+    animation-name: example;
+    animation-duration: 10s;
+    background-image: url(southasia.png);
+    animation-iteration-count: infinite;
+    text-align: center;
+    font-size: 40px;;
+    padding: 40px;
+    background-color: burlywood;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@keyframes example {
+    0%   {color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {color: green;}
+}
+#test {
+    background-color: rgb(195, 212, 198);
+    font-size: 30px;
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 50%;
+    margin: 30px auto;
+    height: 40%;
+    text-align: center;
+    background-image: url(map.png);
+}
+#test:hover{
+    background-color: rgb(243, 216, 167);
+    background-image: unset;
+    background-size: cover;
+}
+#test_status {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size : 40px;
+    margin: 0 auto;
+    opacity: 80%;
+    width: 40%;
+    background-color: rgb(42, 77, 77);
+    border-radius: 40px;
+}
+#test_status:hover {
+    background-image: url(nil.jpeg);
+}
+.template{
+    margin: 0 auto;
+    width: 50%;
+}
+.foto {
+    background-color: red;
+    padding: 20px;
+}
+.foto2 {
+    background-color: white;
+    padding: 20px;
+}
+.foto3 {
+    background-color: blue;
+    padding: 20px;
+}
